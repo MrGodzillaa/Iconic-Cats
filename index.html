@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iconic Cats | NFT Collection</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="dark-mode">
+
+    <!-- Snow Container -->
+    <div class="snow-container" id="snowContainer"></div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <!-- Logo -->
+                <a href="#home" class="logo">
+                    <img src="logo.png" alt="Iconic Cats Logo" class="logo-img">
+                    <div class="logo-text">
+                        <h3>Iconic Cats</h3>
+                        <p>NFT Collection</p>
+                    </div>
+                </a>
+
+                <!-- Navigation -->
+                <nav class="nav">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="whitepaper.html">Whitepaper</a></li>
+                        <li><a href="#tokenomics">Tokenomics</a></li>
+                        <li><a href="#howtobuy">How to Buy</a></li>
+                        <li><a href="#roadmap">Roadmap</a></li>
+                        <li><a href="#community">Community</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+
+                <!-- Theme Toggle -->
+                <div class="theme-toggle-container">
+                    <button class="theme-toggle" id="themeToggle">
+                        <div class="toggle-switch"></div>
+                        <i class="fas fa-sun"></i>
+                        <i class="fas fa-moon"></i>
+                    </button>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Welcome to <span class="gradient-text">Iconic Cats</span></h1>
+                <p>A collection of 1000 unique Iconic Cats NFTs on the Ethereum blockchain. Each Cat is special with different traits and styles.</p>
+                <div class="hero-buttons">
+                    <a href="#howtobuy" class="btn btn-primary">Buy NFTs</a>
+                    <a href="#about" class="btn btn-secondary">Learn More</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <div class="stat-number">1000</div>
+                        <div class="stat-label">NFTs</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">0.01 ETH</div>
+                        <div class="stat-label">Mint Price</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">ETH</div>
+                        <div class="stat-label">blockchain</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Iconic Cats</h2>
+                <p>Meet our unique collection of digital cats</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Iconic Cats is a fun collection of 1000 unique cat NFTs on Ethereum. Each cat has its own personality with different hats, faces, and outfits.</p>
+                    <p>Collect these cute cats and join our growing community. NFT holders get special access to events and future benefits.</p>
+                </div>
+                
+                <div class="nft-collection">
+                    <!-- NFT 1 -->
+                    <div class="nft-item">
+                        <div class="nft-image">
+                            <img src="16.png" alt="Iconic Cat #1" class="nft-img">
+                        </div>
+                        <div class="nft-info">
+                            <h3>Iconic Cat Sci-Fi </h3>
+                            <div class="nft-traits">
+                                <span class="trait">Iconic Cats</span>
+                                <span class="trait">Sci-Fi</span>
+                                <span class="trait">Ethereum</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- NFT 2 -->
+                    <div class="nft-item">
+                        <div class="nft-image">
+                            <img src="14.png" alt="Iconic Cat #420" class="nft-img">
+                        </div>
+                        <div class="nft-info">
+                            <h3>Iconic Cat Hip-Hop</h3>
+                            <div class="nft-traits">
+                                <span class="trait">Iconic Cats</span>
+                                <span class="trait">Hip-Hop</span>
+                                <span class="trait">Ethereum</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- NFT 3 -->
+                    <div class="nft-item">
+                        <div class="nft-image">
+                            <img src="1.png" alt="Iconic Cat #999" class="nft-img">
+                        </div>
+                        <div class="nft-info">
+                            <h3>Iconic Cat Tech-Guy</h3>
+                            <div class="nft-traits">
+                                <span class="trait">Iconic Cats</span>
+                                <span class="trait">Tech-Guy</span>
+                                <span class="trait">Ethereum</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Whitepaper Section -->
+    <section class="section whitepaper" id="whitepaper">
+        <div class="container">
+            <div class="section-header">
+                <h2>Whitepaper</h2>
+                <p>Read our project guide</p>
+            </div>
+            <div class="whitepaper-content">
+                <div class="whitepaper-card">
+                    <div class="card-icon">
+                        <i class="fas fa-book-open"></i>
+                    </div>
+                    <h3>Project Documentation</h3>
+                    <p>Learn about our NFTs, token, and future plans in our simple whitepaper.</p>
+                    <a href="whitepaper.html" class="btn btn-primary">
+                        <i class="fas fa-eye"></i>
+                        <span>Read Whitepaper</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tokenomics Section -->
+    <section class="section tokenomics" id="tokenomics">
+        <div class="container">
+            <div class="section-header">
+                <h2>Tokenomics</h2>
+                <p>$ICAT Token Information</p>
+            </div>
+            <div class="tokenomics-content">
+                <!-- Token Distribution -->
+                <div class="distribution-card">
+                    <h3>Token Distribution</h3>
+                    <div class="distribution-list">
+                        <div class="distribution-item">
+                            <div class="dist-icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <div class="dist-info">
+                                <span class="dist-name">Community & Rewards</span>
+                                <span class="dist-percent">93%</span>
+                            </div>
+                            <div class="dist-amount">930M $MEOW</div>
+                        </div>
+                        
+                        <div class="distribution-item">
+                            <div class="dist-icon">
+                                <i class="fas fa-lock"></i>
+                            </div>
+                            <div class="dist-info">
+                                <span class="dist-name">CEX Listing & Liquidity</span>
+                                <span class="dist-percent">5%</span>
+                            </div>
+                            <div class="dist-amount">50M $MEOW</div>
+                        </div>
+                        
+                        <div class="distribution-item">
+                            <div class="dist-icon">
+                                <i class="fas fa-user-friends"></i>
+                            </div>
+                            <div class="dist-info">
+                                <span class="dist-name">Dev</span>
+                                <span class="dist-percent">2%</span>
+                            </div>
+                            <div class="dist-amount">20M $MEOW</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Token Details -->
+                <div class="token-details-card">
+                    <h3>Token Details</h3>
+                    <div class="details-grid">
+                        <div class="detail-item">
+                            <div class="detail-icon">
+                                <i class="fas fa-tag"></i>
+                            </div>
+                            <div class="detail-content">
+                                <span class="detail-label">Token Name</span>
+                                <span class="detail-value">Iconic Cats Token</span>
+                            </div>
+                        </div>
+                        
+                        <div class="detail-item">
+                            <div class="detail-icon">
+                                <i class="fas fa-hashtag"></i>
+                            </div>
+                            <div class="detail-content">
+                                <span class="detail-label">Symbol</span>
+                                <span class="detail-value">$ICAT</span>
+                            </div>
+                        </div>
+                        
+                        <div class="detail-item">
+                            <div class="detail-icon">
+                                <i class="fas fa-coins"></i>
+                            </div>
+                            <div class="detail-content">
+                                <span class="detail-label">Total Supply</span>
+                                <span class="detail-value">1,000,000,000</span>
+                            </div>
+                        </div>
+                        
+                        <div class="detail-item">
+                            <div class="detail-icon">
+                                <i class="fas fa-link"></i>
+                            </div>
+                            <div class="detail-content">
+                                <span class="detail-label">Blockchain</span>
+                                <span class="detail-value">Ethereum</span>
+                            </div>
+                        </div>
+                        
+                        <div class="detail-item">
+                            <div class="detail-icon">
+                                <i class="fas fa-file-contract"></i>
+                            </div>
+                            <div class="detail-content">
+                                <span class="detail-label">Token Type</span>
+                                <span class="detail-value">ERC-20</span>
+                            </div>
+                        </div>
+                        
+                        <div class="detail-item">
+                            <div class="detail-icon">
+                                <i class="fas fa-percentage"></i>
+                            </div>
+                            <div class="detail-content">
+                                <span class="detail-label">Decimals</span>
+                                <span class="detail-value">18</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="token-utility">
+                        <h4>Token Utility</h4>
+                        <div class="utility-list">
+                            <div class="utility-item">
+                                <i class="fas fa-vote-yea"></i>
+                                <span>Community Ownership</span>
+                            </div>
+                            <div class="utility-item">
+                                <i class="fas fa-gem"></i>
+                                <span>Holder Rewards</span>
+                            </div>
+                            <div class="utility-item">
+                                <i class="fas fa-store"></i>
+                                <span>NFT Purchases</span>
+                            </div>
+                            <div class="utility-item">
+                                <i class="fas fa-ticket-alt"></i>
+                                <span>Exclusive Access</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How to Buy Section -->
+    <section class="section how-to-buy" id="howtobuy">
+        <div class="container">
+            <div class="section-header">
+                <h2>How to Buy</h2>
+                <p>Get your Iconic Cats NFTs</p>
+            </div>
+
+            <!-- Steps -->
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Get a Wallet</h3>
+                        <p>Download MetaMask or Trust Wallet on your device</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Buy ETH</h3>
+                        <p>Purchase Ethereum from an exchange like Coinbase & Bybit</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Connect & Buy</h3>
+                        <p>Connect to OpenSea and browse our collection</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Marketplace -->
+            <div class="marketplace-section">
+                <h3>Available on OpenSea</h3>
+                <p>Buy, sell, and trade Iconic Cats on the largest NFT marketplace</p>
+                <div class="marketplace-links">
+                    <a href="https://opensea.io/collection/iconic-cats" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                        <i class="fas fa-store"></i>
+                        <span>View on OpenSea</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Roadmap Section -->
+    <section class="section roadmap" id="roadmap">
+        <div class="container">
+            <div class="section-header">
+                <h2>Roadmap</h2>
+                <p>Our journey and future plans</p>
+            </div>
+            <div class="roadmap-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">Q1 2026</div>
+                    <div class="timeline-content">
+                        <h3>Launch Phase</h3>
+                        <ul>
+                            <li>Website Launch</li>
+                            <li>Community Building</li>
+                            <li>NFT Mint Event</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">Q2 2024</div>
+                    <div class="timeline-content">
+                        <h3>Growth Phase</h3>
+                        <ul>
+                            <li>$ICAT Token Launch</li>
+                            <li>New Collections</li>
+                            <li>Community Rewards</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">Q3 2024</div>
+                    <div class="timeline-content">
+                        <h3>Development Phase</h3>
+                        <ul>
+                            <li>CEX Listings</li>
+                            <li>New Collections</li>
+                            <li>Game Development</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Community Section -->
+    <section class="section community" id="community">
+        <div class="container">
+            <div class="section-header">
+                <h2>Join Our Community</h2>
+                <p>Connect with other cat lovers</p>
+            </div>
+            <div class="community-links">
+                <a href="https://discord.gg/iconiccats" target="_blank" rel="noopener noreferrer" class="community-link discord">
+                    <i class="fab fa-discord"></i>
+                    <span>Discord</span>
+                </a>
+                <a href="https://t.me/iconiccats" target="_blank" rel="noopener noreferrer" class="community-link telegram">
+                    <i class="fab fa-telegram"></i>
+                    <span>Telegram</span>
+                </a>
+                <a href="https://twitter.com/iconiccats" target="_blank" rel="noopener noreferrer" class="community-link twitter">
+                    <i class="fab fa-twitter"></i>
+                    <span>Twitter</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Contact Us</h2>
+                <p>Get in touch with our team</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-card">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email Us</h3>
+                    <p>contact@iconiccats.io</p>
+                    <p class="contact-note">For questions, support, or partnerships</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="#home" class="logo">
+                        <img src="logo.png" alt="Iconic Cats Logo" class="logo-img">
+                        <div class="logo-text">
+                            <h3>Iconic Cats</h3>
+                            <p>NFT Collection</p>
+                        </div>
+                    </a>
+                    <p class="footer-description">A collection of 1000 unique cat NFTs on the Ethereum blockchain.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="whitepaper.html">Whitepaper</a></li>
+                        <li><a href="#tokenomics">Tokenomics</a></li>
+                        <li><a href="#howtobuy">How to Buy</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-community">
+                    <h4>Community</h4>
+                    <div class="social-links">
+                        <a href="https://discord.gg/iconiccats" target="_blank" rel="noopener noreferrer"><i class="fab fa-discord"></i></a>
+                        <a href="https://t.me/iconiccats" target="_blank" rel="noopener noreferrer"><i class="fab fa-telegram"></i></a>
+                        <a href="https://twitter.com/iconiccats" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Iconic Cats. All rights reserved.</p>
+                <p class="disclaimer">NFTs and cryptocurrencies involve risk. Please do your own research before investing.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
